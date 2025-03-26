@@ -53,7 +53,7 @@ We applied several optimization strategies and their combinations to reduce mode
 4. **Knowledge Distillation**  
    - Training a smaller model (student) using a larger, well-trained model (teacher)  
 
-5. **Ensemble Methods**  
+5. **Ensemble Method**  
    - Combining multiple optimized models in a voting-based ensemble  
 
 ---
