@@ -22,14 +22,14 @@ $$
 
 Where:  
 - \( p_s \): structured pruning ratio  
-- \( p_u \\): unstructured pruning ratio  
+- \( p_u \): unstructured pruning ratio  
 - \( q_w \): weight quantization  
 - \( q_a \): activation quantization  
 - \( w \): number of weights  
 - \( f \): number of multiply-add operations (MACs)  
 - **Reference values:**  
-  - \( 5.6 \times 10^6 \) parameters (ResNet18 baseline)  
-  - \( 2.8 \times 10^8 \) MAC operations (ResNet18 in half precision)  
+  - \( $5.6 \times 10^6$ \) parameters (ResNet18 baseline)  
+  - \( $2.8 \times 10^8$ \) MAC operations (ResNet18 in half precision)  
 
 The lower the score, the more efficient the model.
 
