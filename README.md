@@ -16,9 +16,9 @@ This study introduced an optimized model scaling approach, balancing **depth, wi
 ## Objective  
 The goal is to train an optimized ResNet18 that **achieves 90% accuracy on CIFAR-10** while minimizing the following **efficiency score**:
 
-\[
+$$
 \text{score} = \frac{(1 - (p_s + p_u)) \cdot \frac{q_w}{32} \cdot w}{5.6 \times 10^6} + \frac{(1 - p_s) \cdot \frac{\max(q_w, q_a)}{32} \cdot f}{2.8 \times 10^8}
-\]
+$$
 
 Where:  
 - \( p_s \): structured pruning ratio  
