@@ -21,10 +21,10 @@ $$
 $$
 
 Where:  
-- \( p_s \): structured pruning ratio  
-- \( p_u \): unstructured pruning ratio  
-- \( q_w \): weight quantization  
-- \( q_a \): activation quantization  
+- \( $p_s$ \): structured pruning ratio  
+- \( $p_u$ \): unstructured pruning ratio  
+- \( $q_w$ \): weight quantization  
+- \( $q_a$ \): activation quantization  
 - \( w \): number of weights  
 - \( f \): number of multiply-add operations (MACs)  
 - **Reference values:**  
